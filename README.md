@@ -38,6 +38,36 @@ O projeto é configurado através do arquivo `application.properties` na pasta `
 - `/brinquedos/{id}` (GET): Retorna informações sobre um único brinquedo.
 - `/brinquedos` (POST): Adiciona um novo brinquedo ao banco.
 
+
+- **Listar Todos os Brinquedos**
+  - `GET /brinquedos`
+  - **Descrição:** Retorna uma lista de todos os brinquedos.
+  - **URL de Requisição:** `localhost:8080/brinquedos`
+ 
+- **Listar Um Único Brinquedo**
+  - `GET /brinquedos/{id}`
+  - **Descrição:** Retorna os detalhes de um único brinquedo.
+  - **Parâmetros de URL:** `id` - ID do brinquedo a ser consultado.
+  - **URL de Requisição:** `localhost:8080/brinquedos/{id}`
+
+
+- **Criar Brinquedo**
+  - `POST /brinquedos`
+  - **Descrição:** Adiciona um novo brinquedo.
+  - **Corpo da Requisição:**
+   ```json
+    {
+      "brinquedoNm": "Carrinho Turbo",
+      "brinquedoTp": "Brinquedo de plástico",
+      "brinquedoClassificacao": "Para maiores de 3 anos",
+      "brinquedoTam": "Médio",
+      "brinquedoPreco": 35
+    }
+    ```
+  - **URL de Requisição:** `localhost:8080/brinquedos`
+
+
+
 ## Testes com Postman 🧪
 
 Os testes de API foram realizados utilizando o software Postman para demonstrar as operações de Create e Read.
