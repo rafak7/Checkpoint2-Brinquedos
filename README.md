@@ -82,7 +82,7 @@ Descrição do teste:
 
 ### Vídeo Teste de Criação (POST)
 
-[![POST Request Video](https://github.com/rafak7/Checkpoint2-Brinquedos/blob/main/postThumb.png)](https://github.com/rafak7/Checkpoint2-Brinquedos/blob/main/post.mp4)
+[![POST Request Video](https://github.com/rafak7/Checkpoint2-Brinquedos/blob/main/postThumb.png)](https://youtu.be/MhPBi-Q3Ac4).
 
 Descrição do vídeo:
 - Demonstração do envio de dados no formato JSON para o endpoint `/brinquedos`.
